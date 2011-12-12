@@ -1,0 +1,83 @@
+body {
+   background: #597d25 url(images/background.jpg) top center no-repeat;
+   font-family: sans-serif;
+   color: white;
+}
+
+a {
+   color: white;
+}
+
+#content {
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#login {
+   float: right;
+   background-color:rgba(0,0,0,0.5);
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+#login .input {
+   width: 140px;
+}
+
+.menu {
+   margin-bottom: 20px;
+   background-color:rgba(0,0,0,0.5);
+   border: 1px solid black;
+   border-radius: 15px;
+}
+
+.menu ul {
+   font-size: 1em;
+   list-style-type: none;
+}
+
+.menu li {
+   display: inline;
+   margin: 0;
+   padding: 0.45em 5px;
+   font-size: 2em;
+}
+
+.box {
+   background-color:rgba(0,0,0,0.5);
+   border: 1px solid black;
+   border-radius: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   margin-bottom: 20px;
+}
+
+#leftcolumn {
+   float: left;
+   width: 48%;
+}
+
+#rightcolumn {
+   float: right;
+   width: 48%;
+}
+
+#footer {
+   clear: both;
+   width: 100%;
+}
+
+#footer p {
+   text-align: center;
+}
+
+#about img {
+   float: right
+}
+
+.clear {
+   clear: both;
+}
